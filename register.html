@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration Form</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Register</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" name="username" id="username" 
+                        required placeholder="Enter your username">
+                        <i class='bx bx-user'></i>
+
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" name="email" id="email" 
+                        required placeholder="Enter your email">
+                        <i class='bx bx-envelope'></i>
+
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="pwd" id="pwd"
+                        required placeholder="Enter your password" class="password">
+                        <i class='bx bx-lock'></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" name="chk1" id="chk1">
+                            <label for="chk1" class="text"> i agree All the Statement in Terms of service</label>
+                        </div>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" name="chk1" id="chk1">
+                            <label for="chk1" class="text"> Remember me</label>
+                        </div>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" value="Sign Up">
+                    </div>
+                    <div class="login-signup">
+                        <span class="text">Already have an account?
+                            <a href="index.html" class="text">Sign in →</a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
